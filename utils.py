@@ -2,8 +2,9 @@ import soundfile as sf
 import librosa
 import matplotlib.pyplot as plt
 import numpy as np
-from pathlib import Path
 import requests
+from tqdm import tqdm
+from pathlib import Path
 
 def download_dataset():
     url = "https://drive.usercontent.google.com/download?id=1RarjxOgWkaDV8EjH_eLX169y89PVa3sg&confirm=t"
