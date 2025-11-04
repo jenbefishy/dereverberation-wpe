@@ -2,3 +2,4 @@ output*
 clean/
 reverbed/
 .ipynb_checkpoints/
+venv
